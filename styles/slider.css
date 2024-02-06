@@ -1,0 +1,40 @@
+#slider .slide {
+    height: 100vh;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-size: xx-large;
+}
+
+#slider .active {
+    display: flex;
+}
+
+#slide-1 { background-color: powderblue; }
+#slide-2 { background-color: burlywood; }
+#slide-3 { background-color: darkseagreen; }
+#slide-4 { background-color: thistle; }
+#slide-5 { background-color: lemonchiffon; }
+
+#slider .slider-arrow {
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+#left-slider-arrow {
+    top: 50%;
+    left: 2.5%;
+    background-image: url(/images/left-arrow.svg);
+    background-size: contain;
+}
+
+#right-slider-arrow {
+    top: 50%;
+    right: 2.5%;
+    background-image: url(/images/right-arrow.svg);
+    background-size: contain;
+}

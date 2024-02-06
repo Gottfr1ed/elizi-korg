@@ -1,5 +1,17 @@
+/* Убираем внешние отступы, которые установлены по умолчанию. */
+body {
+    margin: 0;
+}
+
 #header {
-  text-align: center;
-  font-size: xx-large;
-  /* ;kldfjb;lkgnlfkmnf */
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    position: fixed;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
 }
